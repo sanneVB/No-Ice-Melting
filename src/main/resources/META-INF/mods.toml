@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[49,)"
+license="CC0-1.0"
+issueTrackerURL="https://github.com/sanneVB/No-Ice-Melting/issues"
+
+[[mods]]
+modId="nom"
+version="${version}"
+displayName="No Ice Melting"
+description='''This is a simple mod that prevents ice and snow from melting.'''
+logoFile="assets/nom/icon.png"
+authors="Leclowndu93150"
+
+[[mixins]]
+config="nom.mixins.json"
+
+[[dependencies.nom]]
+    modId="forge"
+    mandatory=true
+    versionRange="[49,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.nom]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
