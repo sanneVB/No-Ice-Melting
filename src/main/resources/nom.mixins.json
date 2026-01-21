@@ -1,11 +1,13 @@
 {
   "required": true,
   "package": "com.leclowndu93150.nom.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "nom.refmap.json",
   "mixins": [
     "IceBlockMixin",
     "SnowBlockMixin"
   ],
+  "minVersion": "0.8",
   "injectors": {
     "defaultRequire": 1
 	}

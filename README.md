@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# No Ice Melting
+
+A Minecraft Forge mod that prevents ice and snow from melting.
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+For setup instructions please see the [Forge documentation](https://docs.minecraftforge.net/en/1.20.x/gettingstarted/).
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
