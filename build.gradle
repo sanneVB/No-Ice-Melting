@@ -1,7 +1,15 @@
-plugins {
-	id 'net.minecraftforge.gradle' version '[6.0,6.2)'
-	id 'maven-publish'
+buildscript {
+	repositories {
+		maven { url = 'https://files.minecraftforge.net/maven/' }
+		mavenCentral()
+	}
+	dependencies {
+		classpath 'net.minecraftforge.gradle:ForgeGradle:6.0.+'
+	}
 }
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'maven-publish'
 
 version = project.mod_version
 group = project.maven_group
@@ -12,7 +20,7 @@ base {
 
 repositories {
 	// Add repositories to retrieve artifacts from in here.
-	maven { url = "https://maven.minecraftforge.net/" }
+	maven { url = "https://files.minecraftforge.net/maven/" }
 }
 
 minecraft {
